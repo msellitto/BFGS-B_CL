@@ -1,0 +1,56 @@
+
+# synthetic x5 GPU w/ 8 CPUs - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance_x5 \
+-r spec_in_aviris_kbay_coral.txt \
+-w 1280 \
+-l 51 \
+-p 2 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_x5_gpu8_low \
+-a
+
+
+# synthetic x10 GPU w/ 8 CPUs - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance_x10 \
+-r spec_in_aviris_kbay_coral.txt \
+-w 1280 \
+-l 102 \
+-p 2 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_x5_gpu8_low \
+-a
+
+
+# synthetic x50 GPU w/ 8 CPUs - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance_x50 \
+-r spec_in_aviris_kbay_coral.txt \
+-w 6400 \
+-l 102 \
+-p 2 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_x50_gpu8_low \
+-a
+
+
+# synthetic x100 GPU w/ 8 CPUs - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance_x100 \
+-r spec_in_aviris_kbay_coral.txt \
+-w 6400 \
+-l 204 \
+-p 2 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_x100_gpu8_low \
+-a
+
+
+
+
+

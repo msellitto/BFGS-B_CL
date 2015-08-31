@@ -1,0 +1,133 @@
+
+# synthetic CPU - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-s \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_cpu_low \
+-a
+
+
+
+# synthetic CPU - high
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-s \
+-m 20 \
+-t 2000 \
+-o paramOutput_synth_cpu_high \
+-a
+
+
+
+
+
+
+# synthetic GPU w/ 1 CPU - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 1 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_gpu1_low \
+-a
+
+# synthetic GPU w/ 1 CPU - high
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 1 \
+-m 20 \
+-t 2000 \
+-o paramOutput_synth_gpu1_low \
+-a
+
+
+# synthetic GPU w/ 2 CPU - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 2 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_gpu2_low \
+-a
+
+# synthetic GPU w/ 2 CPU - high
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 2 \
+-m 20 \
+-t 2000 \
+-o paramOutput_synth_gpu2_high \
+-a
+
+
+# synthetic GPU w/ 4 CPU - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 4 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_gpu4_low \
+-a
+
+# synthetic GPU w/ 4 CPU - high
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 4 \
+-m 20 \
+-t 2000 \
+-o paramOutput_synth_gpu4_high \
+-a
+
+
+# synthetic GPU w/ 8 CPU - low
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 8 \
+-m 6 \
+-t 2000 \
+-o paramOutput_synth_gpu8_low \
+-a
+
+# synthetic GPU w/ 8 CPU - high
+./hyperspect_bfgsb_CL \
+-i test_file_reflectance \
+-r spec_in_aviris_kbay_coral.txt \
+-w 256 \
+-l 51 \
+-p 8 \
+-m 20 \
+-t 2000 \
+-o paramOutput_synth_gpu8_high \
+-a
+
+
+

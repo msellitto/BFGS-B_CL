@@ -1,0 +1,144 @@
+
+# real1 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-s \
+-m 6 \
+-t 2000 \
+-o paramOutput_real1_cpu_low \
+-a \
+-y 
+
+# real1 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-s \
+-m 20 \
+-t 2000 \
+-o paramOutput_real1_cpu_high \
+-a \
+-y 
+
+
+
+
+
+
+# real1 GPU w/ 1 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 1 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real1_gpu1_low \
+-a \
+-y 
+
+# real1 GPU w/ 1 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 1 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real1_gpu1_high \
+-a \
+-y 
+
+
+
+# real1 GPU w/ 2 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 2 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real1_gpu2_low \
+-a \
+-y 
+
+# real1 GPU w/ 2 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 2 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real1_gpu2_high \
+-a \
+-y 
+
+
+
+# real1 GPU w/ 4 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 4 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real1_gpu4_low \
+-a \
+-y 
+
+# real1 GPU w/ 4 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 4 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real1_gpu4_high \
+-a \
+-y 
+
+
+
+
+
+# real1 GPU w/ 8 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 8 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real1_gpu8_low \
+-a \
+-y 
+
+# real1 GPU w/ 8 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r14_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 300 \
+-l 350 \
+-p 8 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real1_gpu8_high \
+-a \
+-y 
+

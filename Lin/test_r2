@@ -1,0 +1,143 @@
+
+# real2 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-s \
+-m 6 \
+-t 2000 \
+-o paramOutput_real2_cpu_low \
+-a \
+-y 
+
+# real2 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-s \
+-m 20 \
+-t 2000 \
+-o paramOutput_real2_cpu_high \
+-a \
+-y 
+
+
+
+
+
+# real2 GPU w/ 1 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 1 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real2_gpu1_low \
+-a \
+-y 
+
+# real2 GPU w/ 1 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 1 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real2_gpu1_high \
+-a \
+-y 
+
+
+
+# real2 GPU w/ 2 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 2 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real2_gpu2_low \
+-a \
+-y 
+
+# real2 GPU w/ 2 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 2 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real2_gpu2_high \
+-a \
+-y 
+
+
+
+# real2 GPU w/ 4 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 4 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real2_gpu4_low \
+-a \
+-y 
+
+# real2 GPU w/ 4 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 4 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real2_gpu4_high \
+-a \
+-y 
+
+
+
+
+
+# real2 GPU w/ 8 CPU - low
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 8 \
+-m 6 \
+-t 2000 \
+-o paramOutput_real2_gpu8_low \
+-a \
+-y 
+
+# real2 GPU w/ 8 CPU - high
+./hyperspect_bfgsb_CL \
+-i 1212r12_r13_mos_Rrs_sub_geo3_fs \
+-r spec_in_aviris_enrique.txt \
+-w 550 \
+-l 250 \
+-p 8 \
+-m 20 \
+-t 2000 \
+-o paramOutput_real2_gpu8_high \
+-a \
+-y 
+
